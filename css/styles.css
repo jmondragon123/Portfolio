@@ -87,6 +87,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  line-height: 2rem;
 }
 
 abbr[title],
@@ -7633,6 +7634,9 @@ button.bg-dark:focus {
 .mb-5,
 .my-5 {
   margin-bottom: 3rem !important;
+}
+.mb-5-new{
+  margin-bottom: 1rem !important;
 }
 
 .ml-5,
