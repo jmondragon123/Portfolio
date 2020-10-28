@@ -10101,6 +10101,28 @@ p.lead {
   font-size: 1.5rem;
   margin-right: 1.5rem;
 }
+
+.social-icons .resume-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 1.5rem;
+}
+
+.social-icons .resume-info {
+  display: inline-flex;
+  margin-left: .5rem;
+}
+
+.social-icons .resume-icon:hover {
+  background-color: #4f9c95;
+}
+
 .social-icons .social-icon:last-child {
   margin-right: 0;
 }
@@ -10138,4 +10160,9 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+
+.projects-section-box {
+  display: inline-flex;
+
 }
