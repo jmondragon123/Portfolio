@@ -368,15 +368,15 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-  font-size: 6rem;
+  font-size: 5.6rem;
 }
 
 h2, .h2 {
-  font-size: 3.5rem;
+  font-size: 4rem;
 }
 
 h3, .h3 {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 h4, .h4 {
@@ -3910,6 +3910,7 @@ input[type=button].btn-block {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
+  font-size: 1.25rem;
 }
 .nav-link:hover, .nav-link:focus {
   text-decoration: none;
@@ -10148,10 +10149,61 @@ section.resume-section .resume-section-content {
   width: 100%;
 }
 
+.projects-section {
+  align-items: center;
+}
+
+.projects-section-box {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 2rem;
+  border: .5rem solid teal;
+  border-radius: 10px;
+  justify-content: center;
+  margin: 1rem 0px;
+}
+
+.projects-section-box > a img {
+  max-width: 340px;
+  height: auto;
+}
+.projects-section-box > p {
+  font-size: 1rem;
+  padding: 0 1rem;
+}
+
+
+
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
   }
+
+
+    .projects-section {
+  display: flex;
+}
+
+  .projects-section-box {
+  display: flex;
+  flex-direction: column;
+  font-size: 2.5rem;
+  border: 1rem solid teal;
+  align-items: center;
+  margin-right: 20px;
+}
+
+
+.projects-section-box > a img {
+  width: auto;
+  height: 25vh;
+}
+
+.projects-section-box > p {
+  font-size: 1.5rem;
+  padding: 0 1rem;
+}
+
 }
 @media (min-width: 992px) {
   section.resume-section {
@@ -10162,7 +10214,3 @@ section.resume-section .resume-section-content {
   }
 }
 
-.projects-section-box {
-  display: inline-flex;
-
-}
