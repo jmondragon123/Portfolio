@@ -10180,9 +10180,9 @@ section.resume-section .resume-section-content {
   }
 
 
-    .projects-section {
+  .projects-section {
   display: flex;
-}
+  }
 
   .projects-section-box {
   display: flex;
@@ -10191,18 +10191,18 @@ section.resume-section .resume-section-content {
   border: 1rem solid teal;
   align-items: center;
   margin-right: 20px;
-}
+  }
 
 
-.projects-section-box > a img {
-  width: auto;
-  height: 25vh;
-}
+  .projects-section-box > a img {
+    width: auto;
+    height: 25vh;
+  }
 
-.projects-section-box > p {
-  font-size: 1.5rem;
-  padding: 0 1rem;
-}
+  .projects-section-box > p {
+    font-size: 1.5rem;
+    padding: 0 1rem;
+  }
 
 }
 @media (min-width: 992px) {
